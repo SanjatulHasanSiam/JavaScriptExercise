@@ -1,7 +1,15 @@
-var num1 = parseFloat(prompt("Enter the First number"));
-var num2 = parseFloat(prompt("Enter the Second number"));
-var linebreak = "<br/>";
-document.write("Sum of " + num1 + " and " + num2 + " is : " + (num1 + num2) + linebreak);
-document.write("Substraction of " + num1 + " and " + num2 + " is : " + (num1 - num2) + linebreak);
-document.write("Multiplication of " + num1 + " and " + num2 + " is : " + (num1 * num2) + linebreak);
-document.write("Division of " + num1 + " and " + num2 + " is : " + (num1 / num2) + linebreak);
+var marks = prompt("Enter the First number");
+if (marks >= 80)
+    document.write("A+");
+else if (marks >= 70)
+    document.write("A");
+else if (marks >= 60)
+    document.write("A-");
+else if (marks >= 50)
+    document.write("B");
+else if (marks >= 40)
+    document.write("C");
+else if (marks >= 33)
+    document.write("D");
+else
+    document.write("Fail");
